@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #90afed;
+    margin: 0PX;
+}
+
+header {
+    background-color: #8ca0c7;
+    color: #123f61;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+    background-image: url(image/header.jpg);
+    background-size: cover;
+}
+
+nav {
+    background-color: #e5c1c5;
+    font-family: Arial;
+    text-align: left;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b773ab;
+    color: white;
+}
+
+main {
+    padding: 30px;
+    margin: 20px;
+}
+
+.img {
+    border: 5px solid #e5c1c5;
+    border-radius: 50%;
+    padding: 5px;
+    width: 280px;
+}
+
+aside {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.first {
+    color: rgb(94, 91, 91);
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+tbody {
+    color: #515153;
+}
+
+.gray {
+    color: #515153;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+article {
+    float: right;
+    width: 40%;
+}
+
+section {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(84, 106, 179);
+    font-size: 30px;
+    font-family: Arial, 微軟正黑體;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card {
+    background-color: #e5c1c5;
+    padding: 20px;
+    margin: 6px 10px;
+    border-radius: 15px;
+    background-image: url(image/card.jpg);
+    background-size: cover;
+}
+
+h3 {
+    color: rgb(41, 50, 82);
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    text-indent: 0.5cm;
+}
+
+p {
+    line-height: 30px;
+    color: #909fa6;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #e5c1c5;
+    text-align: center;
+    color: #444444;
+    padding: 10px;
+}
